@@ -26,7 +26,7 @@ const ScrollingLogos: React.FC = () => {
 
   return (
     <div className="relative overflow-hidden bg-navy-horizon/30 py-10">
-      <div className="flex animate-scroll">
+      <div className="flex animate-scroll w-max min-w-[200%]">
         {[...clients, ...clients].map((client, index) => (
           <div
             key={index}
