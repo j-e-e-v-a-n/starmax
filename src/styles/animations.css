@@ -17,10 +17,9 @@
 }
 
 .animate-scroll {
-  animation: scroll 3s linear infinite;
+  animation: scroll .5ms linear infinite;
 }
 
 .animate-scroll-slow {
-  animation: scroll-slow 1ms linear infinite;
-  will-change: transform;
+  animation: scroll-slow .5ms linear infinite;
 }
