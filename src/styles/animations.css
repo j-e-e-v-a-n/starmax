@@ -3,7 +3,7 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
@@ -12,15 +12,15 @@
     transform: translateX(0);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
 .animate-scroll {
-  animation: scroll 1ms linear infinite;
+  animation: scroll 3s linear infinite;
 }
 
 .animate-scroll-slow {
-  animation: scroll-slow 1s linear infinite;
+  animation: scroll-slow 1ms linear infinite;
   will-change: transform;
 }

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from "react";
 
 const testimonials = [
   {
@@ -21,7 +21,7 @@ const testimonials = [
 const ScrollingTestimonials: React.FC = () => {
   return (
     <div className="relative overflow-hidden py-16">
-      <div className="flex animate-scroll-slow">
+      <div className="flex animate-scroll-slow w-max min-w-[200%]">
         {[...testimonials, ...testimonials].map((testimonial, index) => (
           <div
             key={index}
