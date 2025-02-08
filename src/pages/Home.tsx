@@ -66,23 +66,24 @@ const Home: React.FC = () => {
       <section className="py-20 px-4 bg-navy-horizon/50">
         <div className="container mx-auto text-center text-white">
           <Shield className="w-16 h-16 text-electric-sky mx-auto mb-6" />
-          <h1 className="text-4xl md:text-6xl font-bold mb-6">
+          <h1 className="text-4xl sm:text-5xl md:text-6xl font-bold mb-6">
             Your Safety is Our Priority
           </h1>
-          <div className="max-w-3xl mx-auto min-h-[70vh] sm:min-h-[60vh]">
-            <h2 className="text-2xl font-bold mb-4">WELCOME!</h2>
-            <p className="text-lg text-gray-300 mb-8">
-            Starmax provides top-tier security solutions, offering reliable protection gadgets and services. We ensure expert installation and ongoing support for your safety and peace of mind.
+          <div className="max-w-3xl mx-auto min-h-[60vh] sm:min-h-[50vh] lg:min-h-[70vh]">
+            <h2 className="text-2xl sm:text-3xl font-bold mb-4">WELCOME!</h2>
+            <p className="text-lg sm:text-xl text-gray-300 mb-8">
+              Starmax provides top-tier security solutions, offering reliable protection gadgets and services. We ensure expert installation and ongoing support for your safety and peace of mind.
             </p>
             <Link 
               to="/about"
-              className="inline-block bg-electric-sky hover:bg-azure-wave text-white font-bold py-3 px-8 rounded-lg transition-colors"
+              className="inline-block bg-electric-sky hover:bg-azure-wave text-white font-bold py-3 px-8 rounded-lg transition-colors mb-6 sm:mb-8"
             >
               Read More
             </Link>
           </div>
         </div>
       </section>
+
 
       {/* Services Section */}
       <section className="py-16 px-4">
