@@ -72,10 +72,10 @@ const Home: React.FC = () => {
           <div className="max-w-3xl mx-auto">
             <h2 className="text-2xl font-bold mb-4">WELCOME!</h2>
             <p className="text-lg text-gray-300 mb-8">
-              Starmax is a leading company promoting various protection and security services. 
-              We offer a broad range of ideas and gadgets that would surely put your mind to rest. 
-              We assure you that once you have chosen the right protection systems in place, 
-              it would be installed and maintained by our professionals.
+             Starmax is a top provider of security solutions, offering
+             a variety of protection gadgets and services. We guarantee 
+             expert installation and ongoing maintenance, ensuring your
+             safety and peace of mind at all times.
             </p>
             <Link 
               to="/about"
